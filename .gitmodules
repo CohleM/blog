@@ -1,0 +1,4 @@
+[submodule "CohleM/public"]
+	path = CohleM/public
+	url = https://github.com/CohleM/cohlem.github.io.git
+	branch = main

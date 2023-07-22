@@ -13,7 +13,9 @@ params:
       - { name: "Twitter", url: "https://twitter.com/Cohle_M" }
       - { name: "LinkedIn", url: "https://www.linkedin.com/in/manish-bhatta-030a61189//" }
 
-
+    ShowReadingTime: true
+    ShowBreadCrumbs: true
+    ShowPostNavLinks: true
 menu:
   main:
     - identifier: Posts
@@ -36,3 +38,7 @@ outputs:
         - HTML
         - RSS
         - JSON # is necessary
+
+
+
+googleAnalytics: G-X6LV4QY2G2
