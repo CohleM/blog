@@ -1,0 +1,38 @@
+baseURL: "https://cohlem.github.io"
+title: CohleM
+paginate: 5
+theme: PaperMod
+
+params:
+    homeInfoParams:
+        Title: Welcome to CohleM's Blog 
+        Content: Hi there, this is Manish. Here, I document my learnings and share my learnings along the way. 
+
+    socialIcons: # optional
+      - { name: "Github", url: "https://github.com/CohleM" }
+      - { name: "Twitter", url: "https://twitter.com/Cohle_M" }
+      - { name: "LinkedIn", url: "https://www.linkedin.com/in/manish-bhatta-030a61189//" }
+
+
+menu:
+  main:
+    - identifier: Posts
+      name: Posts
+      url: /Posts/
+      weight: 10
+    - identifier: Archive
+      name: Archive
+      url: /archives/
+      weight: 20
+    - identifier: Search
+      name: Search 
+      url: /search/ 
+      weight: 30
+
+
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
